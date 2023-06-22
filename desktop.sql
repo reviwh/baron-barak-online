@@ -51,7 +51,7 @@ INSERT INTO `keranjang` (`id_keranjang`, `id_menu`, `qty`, `id_pelanggan`) VALUE
 CREATE TABLE `meja` (
   `id_meja` char(7) NOT NULL,
   `id_penjual` varchar(20) DEFAULT NULL,
-  `status_meja` enum('Tersedia','Tidak Tersedia','','') DEFAULT NULL
+  `status_meja` enum('Tersedia','Tidak Tersedia') DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
